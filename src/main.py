@@ -13,9 +13,9 @@ while True:
     print("Server is on version", server_version)
     # Mining section
     while True:
-        soc.send(bytes("JOB," + str(username) + ",LOW", encoding="utf8"))  # Send job request
+        soc.send(bytes("JOB," + str(username) + ",ESP32", encoding="utf8"))  # Send job request
         
-        # Don't mind the "LOW" for now since it is in an early state
+        # Don't mind the "ESP32" for now since it is in an early state
         
         job = soc.recv(1024).decode()  # Get work from pool
         job = job.split(",")  # Split received data to job (job and difficulty)
