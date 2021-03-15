@@ -13,3 +13,8 @@ It is now possible to mine duino-coin on the 3DS
 A: Yes it won't show any Output for *now*
 2. Can I mine on the DS?
 A: *Not yet*
+# Credits
+1. Thanks for the people who added the 3ds.py application: https://github.com/vbe0201/3DS.py
+2. Thanks to <a href="https://github.com/hgecode">@hgecode</a> for inducing braincancer in the help process of debugging this dumpster!
+3. Thanks to <a href="https://github.com/revoxhere">@revox</a> for giving us a modified example for the Miner on the 3DS!
+4. Thanks to <a href="https://github.com/revoxhere/duino-coin">The whole Duino-Coin Project</a>
