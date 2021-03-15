@@ -1,7 +1,7 @@
 import socket, hashlib
 # Global variables
 soc = socket.socket()
-username = "PhereloHD"  # Edit this to your username, mind the quotes
+username = "user"  # Edit this to your username, mind the quotes
 pool_address = "51.15.127.80"
 pool_port = 2811
 
