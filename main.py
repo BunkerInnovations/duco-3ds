@@ -14,6 +14,9 @@ while True:
     # Mining section
     while True:
         soc.send(bytes("JOB," + str(username) + ",LOW", encoding="utf8"))  # Send job request
+        
+        # Don't mind the "LOW" for now since it is in an early state
+        
         job = soc.recv(1024).decode()  # Get work from pool
         job = job.split(",")  # Split received data to job (job and difficulty)
         difficulty = job[2]
