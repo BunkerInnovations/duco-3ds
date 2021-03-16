@@ -17,7 +17,7 @@ while True:
         
         # Don't mind the "ESP32" for now since it is in an early state
         
-        job = soc.recv(1024).decode()  # Get work from pool
+        job = soc.recv(87).decode()  # Get work from pool
         job = job.split(",")  # Split received data to job (job and difficulty)
         difficulty = job[2]
         for result in range(
