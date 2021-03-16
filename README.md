@@ -18,3 +18,5 @@ A: *Not yet*
 2. Thanks to <a href="https://github.com/hgecode">@hgecode</a> for giving us the Support of Debugging and Writing this!
 3. Thanks to <a href="https://github.com/revoxhere">@revox</a> for giving us a modified example for the Miner on the 3DS!
 4. Thanks to <a href="https://github.com/revoxhere/duino-coin">The whole Duino-Coin Project</a>
+# I have a New Nintendo 3DS can I set the clock higher?
+Yes you can, set the clock rate in the Rosalian Menu higher: L + DPAD DOWN + SELECT. Go to New 3DS menu and set the rate to  804 Mhz.
