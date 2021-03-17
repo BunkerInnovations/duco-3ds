@@ -1,11 +1,11 @@
 import socket, hashlib
 # Global variables
 soc = socket.socket()
-username = "Yanis"  # Edit this to your username, mind the quotes
+username = "user"  # Edit this to your username, mind the quotes
 pool_address = "51.15.127.80"
 pool_port = 2811
 
-print("Starting 3DS Miner, you probably won't get any output")
+print("Starting 3DS Miner, you probably will get Output on an error.")
 
 while True:
     soc.connect((str(pool_address), int(pool_port)))  # Connect to the server
