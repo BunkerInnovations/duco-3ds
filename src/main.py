@@ -34,6 +34,12 @@ while True:
                     feedback = soc.recv(1024).decode()  # Get feedback about the result
                     print(feedback)
         except:
-            soc.close()
-            soc = socket.socket()
-            soc.connect((str(pool_address), int(pool_port)))  # Connect to the server
+            while True:
+                try:
+                    soc.close()
+                    soc = socket.socket()
+                    soc.connect((str(pool_address), int(pool_port)))  # Connect to the server
+                except:
+                    pass
+                else:
+                    break
